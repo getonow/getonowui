@@ -17,6 +17,7 @@ const ContactForm: React.FC = () => {
     
     try {
       // Using Formspree for form handling
+      // Note: You need to replace 'xdkovnqy' with your own Formspree form ID
       const response = await fetch('https://formspree.io/f/xdkovnqy', {
         method: 'POST',
         headers: {
@@ -37,9 +38,13 @@ const ContactForm: React.FC = () => {
         setFormData({ name: '', email: '', company: '', message: '', consent: false });
       } else {
         console.error('Form submission failed:', response.statusText);
+        alert('Failed to send message. Please try again or contact us directly.');
       }
     } catch (error) {
       console.error('Form submission error:', error);
+      alert('Failed to send message. Please try again or contact us directly.');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 

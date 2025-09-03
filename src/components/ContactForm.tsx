@@ -16,9 +16,14 @@ const ContactForm: React.FC = () => {
     setIsSubmitting(true);
     
     try {
+      // Check if form ID is configured
+      if ('YOUR_FORM_ID_HERE' === 'YOUR_FORM_ID_HERE') {
+        throw new Error('Formspree form ID not configured yet. Please set up your Formspree account first.');
+      }
+      
       // Using Formspree for form handling
-      // Note: You need to replace 'xdkovnqy' with your own Formspree form ID
-      const response = await fetch('https://formspree.io/f/xdkovnqy', {
+      // TODO: Replace 'YOUR_FORM_ID_HERE' with your actual Formspree form ID
+      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID_HERE', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

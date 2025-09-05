@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-200 font-light">
-          Smarter decisions • Faster growth • AI Digital Workforce builders
+          Smarter decisions • Faster growth • Digital Transformation
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

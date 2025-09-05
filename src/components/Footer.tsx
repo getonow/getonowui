@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           </div>
           
           <p className="text-xl text-gray-300 mb-8">
-            Empowering Digital Transformation with AI
+            Empowering Digital Transformation
           </p>
           
           <div className="border-t border-slate-700 pt-8">

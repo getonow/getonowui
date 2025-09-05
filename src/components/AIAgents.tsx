@@ -7,7 +7,7 @@ const AIAgents: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8">
-              AI Agents for <span className="text-red-600">Efficiency</span>
+              Digitalization for <span className="text-red-600">Efficiency</span>
             </h2>
             
             <div className="space-y-8">

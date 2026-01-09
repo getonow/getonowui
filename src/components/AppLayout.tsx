@@ -36,7 +36,7 @@ const AppLayout: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Meet Our CEO & Founder</h2>
           <div className="max-w-2xl mx-auto">
             <img 
-              src="/ceo-portrait.jpg" 
+              src="/ceo-portrait new.jpg" 
               alt="Ben Cadic - CEO & Founder" 
               className="w-80 h-96 object-cover rounded-lg mx-auto mb-6 shadow-lg"
             />

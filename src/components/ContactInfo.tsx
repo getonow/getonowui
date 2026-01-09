@@ -10,12 +10,12 @@ const ContactInfo: React.FC = () => {
               href="https://wa.me/33638931970" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="block transition-transform hover:scale-105 mx-auto mb-4"
+              className="block transition-transform hover:scale-105 mb-4"
             >
               <img 
                 src="https://res.cloudinary.com/dstravtwb/image/upload/v1767963853/whatsapp-logo-icon-isolated-on-transparent-background-free-png_zzvyy8.webp" 
                 alt="WhatsApp" 
-                className="w-12 h-12 object-contain cursor-pointer"
+                className="w-12 h-12 object-contain cursor-pointer mx-auto block"
               />
             </a>
             <h3 className="text-lg font-semibold text-slate-900">Phone</h3>
